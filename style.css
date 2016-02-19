@@ -1,4 +1,83 @@
 body {
-	background-image: url(cloud-background.jpg); 
+	background-image: url(Design/images/Clouds02.jpg); 
+	background-size: 100%;
 }
 
+header h1 {
+	color: black; 
+	position: relative;
+    left: 200px;
+}
+
+.summary {
+	position: relative;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid black;
+}
+
+.preamble {
+	position: relative;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid black;
+	
+}
+
+.explanation {
+	position: relative;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid black;
+}
+
+.participation {
+	position: relative;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid black;
+}
+
+.benefits {
+	position: relative;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid black;
+}
+
+.requirements {
+	position: relative;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid black;
+}
+
+.design-selection {
+	position: relative;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid black;
+}
+
+.design-archives {
+	position: relative;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid black;
+}
+
+.zen-resources {
+	position: relative;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid black;
+}
