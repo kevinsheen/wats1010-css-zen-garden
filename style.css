@@ -6,21 +6,35 @@ body {
 header h1 {
 	color: black; 
 	position: relative;
-    left: 200px;
+    left: 60px;
+	bottom: -100px;
+	color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-size: 480%;
+}
+
+header h2 {
+	color: black; 
+	position: relative;
+    left: 760px;
+	bottom: -100px;
+	color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-size: 200%;
 }
 
 .summary {
 	position: relative;
-    bottom: 0;
-    right: 0;
-    width: 300px;
+    bottom: -300px;
+    right: -300px;
+	width: 600px;
     border: 3px solid black;
 }
 
 .preamble {
 	position: relative;
-    bottom: 0;
-    right: 0;
+	bottom: -340px;
+	right: -120px;
     width: 300px;
     border: 3px solid black;
 	
@@ -28,56 +42,72 @@ header h1 {
 
 .explanation {
 	position: relative;
-    bottom: 0;
-    right: 0;
+    bottom: 30px;
+    right: -800px;
     width: 300px;
     border: 3px solid black;
 }
 
 .participation {
 	position: relative;
-    bottom: 0;
-    right: 0;
-    width: 300px;
+    bottom: 0px;
+    right: -120px;
+	width: 300px;
     border: 3px solid black;
 }
 
 .benefits {
 	position: relative;
-    bottom: 0;
-    right: 0;
+    bottom: 490px;
+    right: -800px;
     width: 300px;
     border: 3px solid black;
 }
 
 .requirements {
 	position: relative;
-    bottom: 0;
-    right: 0;
-    width: 300px;
+    bottom: 170px;
+    right: -120px;
+    width: 980px;
     border: 3px solid black;
 }
 
 .design-selection {
 	position: relative;
-    bottom: 0;
-    right: 0;
+    bottom: -100px;
+    right: -480px;
     width: 300px;
+	height: 500px; 
     border: 3px solid black;
 }
 
 .design-archives {
 	position: relative;
-    bottom: 0;
-    right: 0;
+    bottom: -110px;
+    right: -800px;
     width: 300px;
     border: 3px solid black;
+	z-index: 2
 }
 
 .zen-resources {
 	position: relative;
     bottom: 0;
-    right: 0;
+    right: -160px;
     width: 300px;
     border: 3px solid black;
+	z-index: 1; 
+}
+
+:link:hover { 
+	outline: dotted red; 
+}
+
+footer {
+	position: relative;
+    bottom: 0;
+    right: -480px;
+    width: 300px;
+    border: 3px solid black;
+
 }
