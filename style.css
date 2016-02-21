@@ -1,6 +1,7 @@
 body {
 	background-image: url(Design/images/csszen-background.jpg); 
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 header h1 {
@@ -51,7 +52,7 @@ header h2 {
 .participation {
 	position: relative;
     bottom: 0px;
-    right: -120px;
+    right: -260px;
 	width: 300px;
     border: 3px solid black;
 }
@@ -67,14 +68,14 @@ header h2 {
 .requirements {
 	position: relative;
     bottom: 170px;
-    right: -120px;
-    width: 980px;
+    right: -250px;
+    width: 750px;
     border: 3px solid black;
 }
 
 .design-selection {
 	position: relative;
-    bottom: -100px;
+    bottom: -300px;
     right: -480px;
     width: 300px;
 	height: 500px; 
