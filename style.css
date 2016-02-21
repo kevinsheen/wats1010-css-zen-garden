@@ -8,19 +8,19 @@ header h1 {
 	color: black; 
 	position: relative;
     left: 60px;
-	bottom: -100px;
+	bottom: -155px;
 	color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-	font-size: 480%;
+    text-shadow: 1px 1px 2px black, 0 0 25px goldenrod, 0 0 5px goldenrod;
+	font-size: 475%;
 }
 
 header h2 {
 	color: black; 
 	position: relative;
-    left: 760px;
-	bottom: -100px;
+    left: 700px;
+	bottom: -200px;
 	color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px goldenrod, 0 0 5px goldenrod;
 	font-size: 200%;
 }
 
@@ -35,18 +35,20 @@ header h2 {
 .preamble {
 	position: relative;
 	bottom: -340px;
-	right: -120px;
+	right: -260px;
     width: 300px;
     border: 3px solid black;
+	background-color: black; 
 	
 }
 
 .explanation {
 	position: relative;
     bottom: 30px;
-    right: -800px;
+    right: -680px;
     width: 300px;
     border: 3px solid black;
+	background-color: black;
 }
 
 .participation {
@@ -55,14 +57,16 @@ header h2 {
     right: -260px;
 	width: 300px;
     border: 3px solid black;
+	background-color: black;
 }
 
 .benefits {
 	position: relative;
     bottom: 490px;
-    right: -800px;
+    right: -680px;
     width: 300px;
     border: 3px solid black;
+	background-color: black;
 }
 
 .requirements {
@@ -71,37 +75,39 @@ header h2 {
     right: -250px;
     width: 750px;
     border: 3px solid black;
+	background-color: black;
 }
 
 .design-selection {
 	position: relative;
     bottom: -300px;
-    right: -480px;
+    right: -470px;
     width: 300px;
 	height: 500px; 
     border: 3px solid black;
+	background-color: sienna; 
 }
 
 .design-archives {
 	position: relative;
-    bottom: -110px;
-    right: -800px;
+    bottom: -150px;
+    right: -925px;
     width: 300px;
-    border: 3px solid black;
+    
 	z-index: 2
 }
 
 .zen-resources {
 	position: relative;
-    bottom: 0;
-    right: -160px;
+    bottom: -60px;
+    right: -120px;
     width: 300px;
-    border: 3px solid black;
+    
 	z-index: 1; 
 }
 
 :link:hover { 
-	outline: dotted red; 
+	outline: dotted goldenrod; 
 }
 
 footer {
@@ -112,3 +118,11 @@ footer {
     border: 3px solid black;
 
 }
+p {
+	color: white; 
+}
+
+h3 {
+	color: white; 
+}
+
